@@ -7,7 +7,7 @@
     "switch-middleware": "dist/index.js"
   },
   "exports": {
-    "types": "./src/index.d.ts"
+    "types": "./dist/index.d.ts"
   },
   "files": [
     "dist",
@@ -16,7 +16,7 @@
   ],
   "scripts": {
     "test": "vitest",
-    "build": "tsx esbuild.config.ts"
+    "build": "tsx esbuild.config.ts && tsc -p tsconfig.types.json"
   },
   "keywords": [],
   "author": "Daiji Yamashita",
