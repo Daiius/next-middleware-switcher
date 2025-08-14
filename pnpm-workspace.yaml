@@ -1,0 +1,6 @@
+packages:
+  - next-middleware-switcher
+  - tests
+
+onlyBuiltDependencies:
+  - esbuild

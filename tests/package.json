@@ -1,0 +1,14 @@
+{
+  "name": "@daiius/next-middleware-switcher-tests",
+  "version": "0.0.1",
+  "private": true,
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.12.1",
+  "devDependencies": {
+    "@types/node": "^24.2.1",
+    "@daiius/next-middleware-switcher": "workspace:*"
+  }
+}

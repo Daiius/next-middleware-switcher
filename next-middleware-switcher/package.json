@@ -1,0 +1,35 @@
+{
+  "name": "@daiius/next-middleware-switcher",
+  "version": "0.0.2",
+  "type": "module",
+  "description": "Third parti utility for Next.js, switches middleware templates to middleware.ts",
+  "bin": {
+    "switch-middleware": "dist/index.js"
+  },
+  "exports": {
+    "types": "./src/index.d.ts"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "vitest",
+    "build": "tsx esbuild.config.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.12.1",
+  "devDependencies": {
+    "@types/node": "^24.2.1",
+    "esbuild": "^0.25.9",
+    "tsx": "^4.20.4",
+    "typescript": "^5.9.2",
+    "vitest": "^3.2.4"
+  },
+  "dependencies": {
+    "jiti": "^2.5.1"
+  }
+}
