@@ -19,7 +19,10 @@
     "build": "tsx esbuild.config.ts"
   },
   "keywords": [],
-  "author": "",
+  "author": "Daiji Yamashita",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "license": "ISC",
   "packageManager": "pnpm@10.12.1",
   "devDependencies": {
