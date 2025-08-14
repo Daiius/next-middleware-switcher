@@ -1,6 +1,6 @@
 {
   "name": "@daiius/next-middleware-switcher",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "type": "module",
   "description": "Third parti utility for Next.js, switches middleware templates to middleware.ts",
   "bin": {
